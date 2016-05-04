@@ -1,0 +1,12 @@
+blog_users:
+    resource: "@BLOGUsersBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+blog_api_users:
+    type: rest
+    prefix: /api
+    resource: "@BLOGUsersBundle/Resources/config/routing.yml"

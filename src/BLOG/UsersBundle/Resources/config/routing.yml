@@ -1,0 +1,7 @@
+blog_users_homepage:
+    path:     /
+    defaults: { _controller: BLOGUsersBundle:Default:index }
+
+users:
+    type: rest
+    resource: BLOG\UsersBundle\Controller\UsersController
